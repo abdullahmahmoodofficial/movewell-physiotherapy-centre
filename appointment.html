@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Book a Session | MoveWell Physiotherapy Centre, Lahore</title>
+<meta name="description" content="MoveWell Physiotherapy Centre, Lahore — Move Better. Live Stronger. Expert physiotherapists, transparent PKR prices, home visits, WhatsApp booking.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header"><div class="container nav-in">
+<a href="index.html" class="logo">Move<em>Well</em><small>PHYSIOTHERAPY &middot; LAHORE</small></a>
+<nav class="nav" id="nav"><a href="index.html" class="">Home</a><a href="about.html" class="">About</a><a href="services.html" class="">Services</a><a href="therapists.html" class="">Therapists</a><a href="gallery.html" class="">Gallery</a><a href="contact.html" class="">Contact</a><a href="appointment.html" class="btn">Book a Session</a></nav>
+<button class="hamburger" id="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+</div></header>
+
+<section class="page-hero"><div class="container"><h1>Book Your Physiotherapy Session</h1><p>Book in six quick steps: choose your treatment, therapist, date and time, then confirm. You will receive a booking reference, and you can send the full details to the centre on WhatsApp.</p></div></section>
+<section class="sec"><div class="container two"><div>
+<div class="form" id="bookingWizard">
+<ol class="bk-progress"><li class="current">1. Service</li><li>2. Therapist</li><li>3. Date</li><li>4. Time</li><li>5. Details</li><li>6. Review</li></ol>
+<div id="bkWizardPanels">
+<div class="bk-step on" id="bkStep1"><h3>Step 1 — Choose your treatment</h3><p>Transparent prices, confirmed before treatment. No hidden charges.</p><div class="bk-options" id="bkServices"></div></div>
+<div class="bk-step" id="bkStep2"><h3>Step 2 — Choose your therapist</h3><p>Book with a specific therapist, or leave it to the first available one.</p><div class="bk-options" id="bkDoctors"></div></div>
+<div class="bk-step" id="bkStep3"><h3>Step 3 — Choose your date</h3><p>The centre is open Monday to Saturday, 9 AM to 8 PM, and closed on Sundays. Home visits run on the same days. Past dates are not available.</p><label for="bkDate">Preferred date *</label><input id="bkDate" type="date"></div>
+<div class="bk-step" id="bkStep4"><h3>Step 4 — Choose a time slot</h3><p id="bkSlotNote">Choose a date first to see available times.</p><div class="bk-slots" id="bkSlots"></div></div>
+<div class="bk-step" id="bkStep5"><h3>Step 5 — Your details</h3><p>We use these only to confirm your session.</p><label for="bkName">Full name *</label><input id="bkName" type="text" placeholder="e.g. Ahmed Khan" autocomplete="name"><label for="bkPhone">Phone / WhatsApp *</label><input id="bkPhone" type="tel" placeholder="03xx xxxxxxx" autocomplete="tel"><label for="bkNotes">Anything we should know?</label><textarea id="bkNotes" rows="3" placeholder="Optional notes — injury or surgery history, and your address if you booked a home visit&hellip;"></textarea></div>
+<div class="bk-step" id="bkStep6"><h3>Step 6 — Review your booking</h3><p>Please check everything before confirming. You can go back to change any step.</p><div class="bk-review" id="bkReview"></div><p style="margin-top:1rem"><button type="button" class="btn btn-outline" data-goto-step="1">Edit service</button> <button type="button" class="btn btn-outline" data-goto-step="2">Edit therapist</button> <button type="button" class="btn btn-outline" data-goto-step="3">Edit date &amp; time</button></p></div>
+</div>
+<p class="err" id="bkError"></p>
+<div class="bk-nav" id="bkNav"><button type="button" class="btn btn-outline" id="bkBack">&larr; Back</button><button type="button" class="btn" id="bkNext">Continue &rarr;</button></div>
+</div>
+<div class="bk-confirm" id="bkConfirm" style="display:none"><h2>Booking confirmed</h2><p>Your booking reference is:</p><p class="bk-ref" id="bkRef"></p><p id="bkConfirmSummary"></p><p style="color:var(--muted)">This booking has been saved on this device. Send it to the centre on WhatsApp so the team can confirm your slot.</p><p><a class="btn btn-wa" id="bkWhatsApp" href="#" target="_blank" rel="noopener">Send via WhatsApp &rarr;</a></p><p><button type="button" class="btn btn-outline" id="bkAgain">Book another session</button></p></div>
+</div>
+<div><img src="images/svc-assessment.jpg" alt="Physiotherapy assessment at MoveWell" loading="lazy"><div class="info" style="margin-top:1.2rem"><h3>What happens next</h3><p>1. Confirm your booking and note your reference.<br>2. Send the details on WhatsApp, or call the centre.<br>3. For centre sessions, arrive 10 minutes early. For home visits, keep any scans or reports ready.</p><h3 style="margin-top:1rem">Centre hours</h3><p>Mon &ndash; Sat: 9 AM &ndash; 8 PM<br>Sunday: Closed<br><br>12-B, Jail Road, Gulberg II, Lahore<br><a href="tel:+923001234567">+92 300 1234567</a></p></div></div></div></section>
+<footer class="footer"><div class="container foot-in">
+<div><h4>MoveWell Physiotherapy Centre</h4><p>Move Better. Live Stronger. Expert physiotherapy in Lahore with honest prices, personal plans and home visits.</p><p style="margin-top:.8rem">12-B, Jail Road, Gulberg II, Lahore<br><a href="tel:+923001234567">+92 300 1234567</a><br>Mon&ndash;Sat: 9 AM &ndash; 8 PM</p></div>
+<div><h4>Centre</h4><a href="about.html">About Us</a><a href="therapists.html">Our Therapists</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a></div>
+<div><h4>Treatments</h4><a href="services.html">All Treatments</a><a href="appointment.html?t=back-neck-pain-therapy">Back &amp; Neck Pain</a><a href="appointment.html?t=sports-injury-rehabilitation">Sports Injuries</a><a href="appointment.html?t=home-visit-physiotherapy">Home Visits</a></div>
+<div><h4>Booking</h4><a href="appointment.html">Book a Session</a><a href="https://wa.me/923001234567?text=Assalam-o-Alaikum!%20I%20want%20to%20book%20a%20physiotherapy%20session." target="_blank" rel="noopener">WhatsApp Booking</a><a href="tel:+923001234567">Call the Centre</a></div>
+</div><div class="foot-bottom">&copy; 2026 MoveWell Physiotherapy Centre, Lahore. All rights reserved.</div></footer>
+<a class="wa-float" href="https://wa.me/923001234567?text=Assalam-o-Alaikum!%20I%20want%20to%20book%20a%20physiotherapy%20session." target="_blank" rel="noopener" aria-label="WhatsApp">&#128172;</a>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+<script src="js/script.js" defer></script>
+<script src="js/animations.js" defer></script>
+<script src="js/booking.js" defer></script>
+</body>
+</html>
